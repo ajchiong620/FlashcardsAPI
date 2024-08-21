@@ -3,19 +3,16 @@
   "WorkspaceRootPath": "C:\\repos\\service\\FlashcardsAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FEB3EF2-F0EC-434A-BFB0-92B8D8F8E40B}|..\\FlashcardsTest\\FlashcardsTest.csproj|c:\\repos\\service\\flashcardstest\\flashcardstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\controllers\\flashcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:controllers\\flashcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\infrastructure\\datarepository\\flashcardsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:infrastructure\\datarepository\\flashcardsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\infrastructure\\repositoryinterface\\iflashcardsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:infrastructure\\repositoryinterface\\iflashcardsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\coreservices\\coredata\\flashcardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,24 +23,31 @@
       "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:coreservices\\serviceinterface\\iflashcardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\infrastructure\\datarepository\\flashcardsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:infrastructure\\datarepository\\flashcardsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEB3EF2-F0EC-434A-BFB0-92B8D8F8E40B}|..\\FlashcardsTest\\FlashcardsTest.csproj|c:\\repos\\service\\flashcardstest\\flashcardstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\infrastructure\\repositoryinterface\\iflashcardsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:infrastructure\\repositoryinterface\\iflashcardsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\data\\flashcardscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:data\\flashcardscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\controllers\\flashcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:controllers\\flashcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC2E6DE0-C588-4F82-AE09-0CEB6EE0695B}|FlashcardsAPI.csproj|c:\\repos\\service\\flashcardsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -64,63 +68,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-20T14:46:28.164Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FlashcardsTest.cs",
-              "DocumentMoniker": "C:\\repos\\service\\FlashcardsTest\\FlashcardsTest.cs",
-              "RelativeDocumentMoniker": "..\\FlashcardsTest\\FlashcardsTest.cs",
-              "ToolTip": "C:\\repos\\service\\FlashcardsTest\\FlashcardsTest.cs*",
-              "RelativeToolTip": "..\\FlashcardsTest\\FlashcardsTest.cs*",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswBsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T12:25:50.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FlashcardsContext.cs",
-              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Data\\FlashcardsContext.cs",
-              "RelativeDocumentMoniker": "Data\\FlashcardsContext.cs",
-              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Data\\FlashcardsContext.cs",
-              "RelativeToolTip": "Data\\FlashcardsContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T02:02:32.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "FlashcardsController.cs",
               "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Controllers\\FlashcardsController.cs",
               "RelativeDocumentMoniker": "Controllers\\FlashcardsController.cs",
               "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Controllers\\FlashcardsController.cs",
               "RelativeToolTip": "Controllers\\FlashcardsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T20:13:40.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FlashcardsRepo.cs",
-              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Infrastructure\\DataRepository\\FlashcardsRepo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DataRepository\\FlashcardsRepo.cs",
-              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Infrastructure\\DataRepository\\FlashcardsRepo.cs",
-              "RelativeToolTip": "Infrastructure\\DataRepository\\FlashcardsRepo.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T02:19:50.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -128,64 +110,50 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAADiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-14T20:47:26.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T20:47:26.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IFlashcardsRepo.cs",
-              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Infrastructure\\RepositoryInterface\\IFlashcardsRepo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\RepositoryInterface\\IFlashcardsRepo.cs",
-              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Infrastructure\\RepositoryInterface\\IFlashcardsRepo.cs",
-              "RelativeToolTip": "Infrastructure\\RepositoryInterface\\IFlashcardsRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FlashcardsRepo.cs",
+              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Infrastructure\\DataRepository\\FlashcardsRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataRepository\\FlashcardsRepo.cs",
+              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Infrastructure\\DataRepository\\FlashcardsRepo.cs",
+              "RelativeToolTip": "Infrastructure\\DataRepository\\FlashcardsRepo.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T02:19:07.446Z",
+              "WhenOpened": "2024-08-15T02:19:50.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:31:57.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Flashcard.cs",
               "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Models\\Flashcard.cs",
               "RelativeDocumentMoniker": "Models\\Flashcard.cs",
               "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Models\\Flashcard.cs",
               "RelativeToolTip": "Models\\Flashcard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T02:02:45.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FlashcardsService.cs",
-              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\CoreServices\\CoreData\\FlashcardsService.cs",
-              "RelativeDocumentMoniker": "CoreServices\\CoreData\\FlashcardsService.cs",
-              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\CoreServices\\CoreData\\FlashcardsService.cs",
-              "RelativeToolTip": "CoreServices\\CoreData\\FlashcardsService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T02:28:02.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IFlashcardsService.cs",
-              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\CoreServices\\ServiceInterface\\IFlashcardsService.cs",
-              "RelativeDocumentMoniker": "CoreServices\\ServiceInterface\\IFlashcardsService.cs",
-              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\CoreServices\\ServiceInterface\\IFlashcardsService.cs",
-              "RelativeToolTip": "CoreServices\\ServiceInterface\\IFlashcardsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T02:29:04.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -198,20 +166,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAIBJwB4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IFlashcardsService.cs",
+              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\CoreServices\\ServiceInterface\\IFlashcardsService.cs",
+              "RelativeDocumentMoniker": "CoreServices\\ServiceInterface\\IFlashcardsService.cs",
+              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\CoreServices\\ServiceInterface\\IFlashcardsService.cs",
+              "RelativeToolTip": "CoreServices\\ServiceInterface\\IFlashcardsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:31:57.179Z",
+              "WhenOpened": "2024-08-15T02:29:04.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
+              "Title": "FlashcardsService.cs",
+              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\CoreServices\\CoreData\\FlashcardsService.cs",
+              "RelativeDocumentMoniker": "CoreServices\\CoreData\\FlashcardsService.cs",
+              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\CoreServices\\CoreData\\FlashcardsService.cs",
+              "RelativeToolTip": "CoreServices\\CoreData\\FlashcardsService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T02:28:02.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFlashcardsRepo.cs",
+              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Infrastructure\\RepositoryInterface\\IFlashcardsRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\RepositoryInterface\\IFlashcardsRepo.cs",
+              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Infrastructure\\RepositoryInterface\\IFlashcardsRepo.cs",
+              "RelativeToolTip": "Infrastructure\\RepositoryInterface\\IFlashcardsRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T02:19:07.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FlashcardsTest.cs",
+              "DocumentMoniker": "C:\\repos\\service\\FlashcardsTest\\FlashcardsTest.cs",
+              "RelativeDocumentMoniker": "..\\FlashcardsTest\\FlashcardsTest.cs",
+              "ToolTip": "C:\\repos\\service\\FlashcardsTest\\FlashcardsTest.cs",
+              "RelativeToolTip": "..\\FlashcardsTest\\FlashcardsTest.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwB8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T12:25:50.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FlashcardsContext.cs",
+              "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Data\\FlashcardsContext.cs",
+              "RelativeDocumentMoniker": "Data\\FlashcardsContext.cs",
+              "ToolTip": "C:\\repos\\service\\FlashcardsAPI\\Data\\FlashcardsContext.cs",
+              "RelativeToolTip": "Data\\FlashcardsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T02:02:32.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -219,12 +237,11 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-15T19:34:14.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T19:34:14.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aj_ch\\Documents\\training\\.NetInfosys\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\aj_ch\\Documents\\training\\.NetInfosys\\Program.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "FlashcardsAPI.csproj",
               "DocumentMoniker": "C:\\repos\\service\\FlashcardsAPI\\FlashcardsAPI.csproj",
               "RelativeDocumentMoniker": "FlashcardsAPI.csproj",
@@ -243,12 +260,7 @@
               "RelativeToolTip": "FlashcardsAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-14T20:31:43.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-08-14T20:31:43.877Z"
             }
           ]
         },

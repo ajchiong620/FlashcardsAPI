@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("632ce618-7452-4f12-b401-b99e5466f940")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlashcardsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bbff4646741928c6b06a65d82da7c12c724f4e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlashcardsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlashcardsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

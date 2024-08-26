@@ -3,6 +3,7 @@ using FlashcardsAPI.CoreServices.ServiceInterface;
 using FlashcardsAPI.Data;
 using FlashcardsAPI.Infrastructure.DataRepository;
 using FlashcardsAPI.Infrastructure.RepositoryInterface;
+using FlashcardsAPI.Middlewares;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,6 +30,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 

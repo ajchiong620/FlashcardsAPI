@@ -9,10 +9,12 @@ namespace FlashcardsAPI.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IUsersService _usersService;
+        private readonly IJWTService _jwtService;
 
-        public UsersController(IUsersService usersService)
+        public UsersController(IUsersService usersService, IJWTService jwtService)
         {
             _usersService = usersService;
+            _jwtService = jwtService;
         }
 
         [HttpPost("register")]
@@ -32,18 +34,18 @@ namespace FlashcardsAPI.Controllers
             return Ok(newUser);
         }
 
-        //[HttpPost("login")]
-        //public async Task<ActionResult> Login(User user)
-        //{
-        //    var userToLookup = await _usersService.GetUserByUsername(user.Username);
+        [HttpPost("login")]
+        public async Task<ActionResult> Login(User user)
+        {
+            var userToLookup = await _usersService.GetUserByUsername(user.Username);
 
-        //    if (userToLookup == null || !BCrypt.Net.BCrypt.Verify(user.PasswordHash, userToLookup.PasswordHash))
-        //        return Unauthorized("Invalid username or password");
+            if (userToLookup == null || !BCrypt.Net.BCrypt.Verify(user.PasswordHash, userToLookup.PasswordHash))
+                return Unauthorized("Invalid username or password");
 
-        //    //var token = _jwtService.GenerateJwtToken(user);
+            var token = _jwtService.GenerateJwtToken(user);
 
-        //    //return Ok(new { Token = token });
-        //}
+            return Ok(new { Token = token });
+        }
 
 
     }

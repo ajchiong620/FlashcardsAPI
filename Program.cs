@@ -34,6 +34,9 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("FlashcardsConnec
 
 builder.Services.AddTransient<IFlashcardsRepo, FlashcardsRepo>();
 builder.Services.AddTransient<IFlashcardsService, FlashcardsService>();
+builder.Services.AddTransient<IUsersRepo, UsersRepo>();
+builder.Services.AddTransient<IUsersService, UsersService>();
+builder.Services.AddScoped<IJWTService, JWTService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -49,7 +52,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

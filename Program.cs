@@ -3,6 +3,7 @@ using FlashcardsAPI.CoreServices.ServiceInterface;
 using FlashcardsAPI.Data;
 using FlashcardsAPI.Infrastructure.DataRepository;
 using FlashcardsAPI.Infrastructure.RepositoryInterface;
+using FlashcardsAPI.Middlewares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -51,7 +52,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ExceptionMiddleware>();
+
 app.UseHttpsRedirection();
+
+app.UseCors(o => o.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+
 app.UseAuthentication();
 app.UseAuthorization();
 

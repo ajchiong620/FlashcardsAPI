@@ -4,11 +4,29 @@ using FlashcardsAPI.Data;
 using FlashcardsAPI.Infrastructure.DataRepository;
 using FlashcardsAPI.Infrastructure.RepositoryInterface;
 using FlashcardsAPI.Middlewares;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+            ValidAudience = builder.Configuration["JwtSettings:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:SecretKey"]))
+        };
+    });
 
 builder.Services.AddControllers();
 
@@ -17,6 +35,9 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("FlashcardsConnec
 
 builder.Services.AddTransient<IFlashcardsRepo, FlashcardsRepo>();
 builder.Services.AddTransient<IFlashcardsService, FlashcardsService>();
+builder.Services.AddTransient<IUsersRepo, UsersRepo>();
+builder.Services.AddTransient<IUsersService, UsersService>();
+builder.Services.AddScoped<IJWTService, JWTService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -37,6 +58,7 @@ app.UseHttpsRedirection();
 
 app.UseCors(o => o.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

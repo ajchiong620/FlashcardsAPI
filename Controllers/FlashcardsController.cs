@@ -1,10 +1,12 @@
 ﻿using FlashcardsAPI.CoreServices.ServiceInterface;
 using FlashcardsAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
 namespace FlashcardsAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class FlashcardsController : ControllerBase
@@ -15,6 +17,7 @@ namespace FlashcardsAPI.Controllers
             _flashcardsService = flashcardsService;
         }
 
+        
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Flashcard>>> GetFlashcards()
         {
